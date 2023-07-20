@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Recluta, despliega y domina con una alineación rotativa de campeones de League of Legends en una batalla por rondas donde el objetivo es la supremacía.">
+    <title>TFT: Runaterra Reforjada - Teamfight Tactics</title>
+    <link rel="icon" href="./imagenes/tft logo.png">
+    <!-- Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Css Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Css Wowjs -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Css Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Mi css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="bodyindex">
+    <!-- Header inicio -->
+    <header class="container-fluid p-0" id="header">
+        <nav class="navbar navbar-expand-lg p-0" id="headernavbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.riotgames.com/es" id="riotlink"
+                    alt="Link para ir a la pagina de Riot Games"><img src="./imagenes/riot-games-logo.png"
+                        alt="Logo de Riot Games" class="img"></a>
+                <a class="navbar-brand" href="index.html" id="tftlogo"
+                    alt="Link para ir a la pagina de Teamfight Tactics principal"><img
+                        src="./imagenes/teamfight-tactics-logo-t.png" alt="Logo de Team figth Tactics" class="img"></a>
+                <button class="navbar-toggler" type="button" id="buttontoggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                alt="Link para ir a la pagina de Noticias de Teamfight Tactics"
+                                href="./pages/noticias.html" id="noticiaslink">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/resumenset.html"
+                                alt="Link para ir a la pagina del resumen del set de Teamfight Tactics"
+                                id="resumendelsetlink">RESUMEN DEL SET</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./pages/duo.html"
+                                alt="Link para ir a la pagina de Duo dinamico de Teamfight Tactics"
+                                id="duodinamicolink">DÚO DINÁMICO</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                                alt="Link para ir a la pagina de Hyper roll de Teamfight Tactics"
+                                href="./pages/hyper.html" id="hyperrolllink">HYPER ROLL</a></li>
+                    </ul>
+                    <form id="formbotones" class="text-center text-lg-start">
+                        <button class="btn btn me-2" type="submit" alt="boton para ir a iniciar sesion"
+                            id="botonsesion"><a href="./pages/sesion.html" id="sesion">INICIAR SESIÓN</a></button>
+                        <button class="btn" type="submit" alt="boton para ir a jugar" id="botonjugar"><a
+                                href="https://signup.leagueoflegends.com/es-ar/teamfight-tactics/signup/index?_ga=2.121814988.693311089.1689132714-1345661657.1688979140&_gl=1*ms8urc*_ga*MTM0NTY2MTY1Ny4xNjg4OTc5MTQw*_ga_3HM18VBM2V*MTY4OTE0Mjk3OC4yLjEuMTY4OTE0NTA3My41MS4wLjA.#/"
+                                id="jugar">JUGAR AHORA</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header fin -->
+
+    <!-- seccion 1 inicio -->
+    <section class="container-fluid" id="sec1">
+        <div class="container" id="sec1">
+            <div class="clearfix text-center">
+                <video class="object-fit-cover" autoplay muted loop id="videosec1">
+                    <source src="./videos/teamfigth tacttics gameplay trailer.mp4"
+                        alt="Video inicial de la pagina de tft abajo del texto" type="video/mp4">
+                </video>
+                <div class="card-body">
+                    <p class="text-center" id="titulocartasec1">TEAMFIGHT TACTICS</p>
+                    <button class="btn d-grid gap-2 col-6 mx-auto" type="submit" alt="Otro boton para ir a jugar"
+                        id="botonjugar2"><a
+                            href="https://signup.leagueoflegends.com/es-ar/teamfight-tactics/signup/index?_ga=2.121814988.693311089.1689132714-1345661657.1688979140&_gl=1*ms8urc*_ga*MTM0NTY2MTY1Ny4xNjg4OTc5MTQw*_ga_3HM18VBM2V*MTY4OTE0Mjk3OC4yLjEuMTY4OTE0NTA3My41MS4wLjA.#/"
+                            id="jugar">
+                            <h1>JUEGA GRATIS</h1>
+                        </a></button>
+                    <p class="text-center" id="textojuegagratis">Juega gratis en dispositivos móviles o en computadora
+                    </p>
+                    <div class="row container">
+                        <a class="btn col-6"
+                            href="https://play.google.com/store/apps/details?id=com.riotgames.league.teamfighttactics&referrer=singular_click_id%3D5501ec24-dc3f-415b-ae7d-d4fda49a071c"
+                            id="botonesapptft"
+                            alt="Es una imagen con un link para ir a Google Play para Team figth Tactics"><img
+                                src="./imagenes/get-it-on-google-play.png" class="img-fluid"></a>
+                        <a class="btn col-6"
+                            href="https://apps.apple.com/app/id1480616748?referrer=singular_click_id%3Dfe2a892a-b337-4add-96d1-59e51d9afdf3"
+                            id="botonesapptft"
+                            alt="Es una imagen con un link para ir a App Store para Team figth Tactics"><img
+                                src="./imagenes/get-it-on-app-store.png" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 1 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 2 inicio -->
+    <section class="container-fluid" id="sec2">
+        <div class="container" id="sec2">
+            <div class="clearfix text-center">
+                <div class="container" id="sec22">
+                    <img src="./imagenes/tft-items.png" class="img-fluid float-md-top mb-3 ms-md-3"
+                        alt="Pingüino de Teamfight Tactics">
+                </div>
+                <div class="container" id="sec22">
+                    <img src="./imagenes/portal.png" class="img-fluid col-md-6 float-md-start mb-3 ms-md-3"
+                        alt="Portal de la Convergencia">
+                </div>
+                <h1 class="card-title" id="titulocartasec2">Lucha por la Convergencia</h1>
+                <p class="card-text" id="textocartasec2">Recluta, despliega y domina con una alineación rotativa de
+                    campeones de League
+                    of Legends en una batalla por rondas donde el objetivo es la supremacía. Supera a tus oponentes
+                    y adáptate conforme avanzas. La estrategia depende de ti.</p>
+                <button class="btn d-grid gap-2 col-6 mx-auto" type="submit" alt="Otro boton para ir a jugar"
+                    id="botonjugar3"><a
+                        href="https://signup.leagueoflegends.com/es-ar/teamfight-tactics/signup/index?_ga=2.121814988.693311089.1689132714-1345661657.1688979140&_gl=1*ms8urc*_ga*MTM0NTY2MTY1Ny4xNjg4OTc5MTQw*_ga_3HM18VBM2V*MTY4OTE0Mjk3OC4yLjEuMTY4OTE0NTA3My41MS4wLjA.#/"
+                        id="jugar">
+                        <h2>JUEGA GRATIS</h2>
+                    </a></button>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 2 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 3 inicio -->
+    <section class="container-fluid" id="sec3">
+        <div class="container" id="sec3">
+            <div class="clearfix text-center">
+                <img src="./imagenes/gif trailer.gif" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+                    alt="Imagen gif de Swain y Furyhorn">
+                <h1 class="card-title" id="titulocartasec3">Descarga y juega</h1>
+                <p class="card-text" id="textocartasec3">El soporte multiplataforma te permite jugar con tus amigos (y
+                    aplastar a tus enemigos) en PC, Mac y dispositivos móviles.</p>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 3 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 4 inicio -->
+    <section class="container-fluid" id="sec4">
+        <div class="container" id="sec44">
+            <div class="clearfix text-center">
+                <img src="./imagenes/hushtail.png" class="img-fluid float-md-top mb-3 ms-md-3" alt="Imagen de Hushtail">
+                <img src="./imagenes/furyhorn.png" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+                    alt="Imagen de Furyhorn">
+                <img src="./imagenes/hauntling.png" class="img-fluid col-md-6 float-md-start mb-3 ms-md-3"
+                    alt="Imagen de Hauntling">
+                <h1 class="card-title" id="titulocartasec44">Demuestra tu</h1>
+                <h2 class="card-title" id="titulocartasec44">estilo</h2>
+                <p class="card-text" id="textocartasec44">Exprésate con tu Minileyenda que baila, hace gestos y hasta
+                    alardea.</p>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 4 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 5 inicio -->
+    <section class="container-fluid" id="sec5">
+        <div class="container" id="sec5">
+            <div class="clearfix text-center">
+                <a href="./pages/resumenset.html" alt="Esta imagen es un link"><img src="./imagenes/gameplay art.jpg"
+                        class="img-fluid col-md-6 float-md-end mb-3 ms-md-3"
+                        alt="Arte de Teamfight Tactics con Campeones y Minileyenda"></a>
+                <h1 class="card-title" id="titulocartasec51">TEAMFIGHT TACTICS</h1>
+                <h2 class="card-title text-center my-3" id="titulocartasec52">RUNATERRA REFORJADA</h2>
+                <p class="card-text" id="textocartasec5">Una tempestad arrasó con la Convergencia y dejó un completo
+                    caos tras de sí, con regiones fracturadas que se fusionaron para dar paso a un nuevo y absurdo
+                    mundo. Recluta una Leyenda, elige un portal y adéntrate con tus campeones de Runaterra favoritos:
+                    ¡Necesitarán la ayuda de un Estratega para navegar por estos campos de batalla extraños y revueltos!
+                </p>
+                <button class="btn d-grid float-md-start gap-2 col-6 mx-auto" type="submit"
+                    alt="Boton para ir a seccion de resumen del set" id="botonportal"><a href="./pages/resumenset.html"
+                        id="botonportal">
+                        <h3 id="textobotonportal" alt="Texto del boton para ir al resumen del set">¡AL
+                            PORTAL!</h3>
+                    </a></button>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 5 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 6 inicio -->
+    <section class="container-fluid" id="sec6">
+        <div class="container" id="sec6">
+            <h1 class="text-start" id="textoultnoticias">Últimas noticias</h1>
+            <div class="container">
+                <button class="btn d-grid float-md-end gap-2 col-12 mx-auto" type="submit"
+                    alt="Boton para ir a seccion de noticias de Teamfight Tactics" id="botonvertodo"><a
+                        href="./pages/resumenset.html" id="botonvertodo">
+                        <h3 id="textovertodo" alt="Texto del boton para ir ver todas las noticias">Ver todo</h3>
+                    </a></button>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100" id="cartasec6">
+                        <a href="https://teamfighttactics.leagueoflegends.com/es-mx/news/dev/tft-combate-de-las-almas-y-el-domo-pachonc/"
+                            alt="Esta imagen es un link para ir al resumen del evento TFT: Combate de las Almas y El Domo Pachonc"><img
+                                src="./imagenes/tft articulo banner.jpg" class="card-img-top"
+                                alt="Imagen banner del evento TFT: Combate de las Almas y El Domo Pachonc"></a>
+                        <div class="card-body">
+                            <h2 class="card-title" id="titulodecartasec61"
+                                alt="Titulo de la carta TFT: Combate de las Almas y El Domo Pachonc">TFT: Combate de las
+                                Almas y El Domo Pachonc</h2>
+                            <p class="card-text" id="textodecartasec61"
+                                alt="Texto de la carta TFT: Combate de las Almas y El Domo Pachonc">Conoce el modo de
+                                juego, el evento y los elementos estéticos que llegan
+                                en Combate de las Almas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" id="cartasec6">
+                        <a href="https://www.youtube.com/watch?v=_3vuHSFWwAM"
+                            alt="Esta imagen es un link para ir video resumen de la actualización de TFT 13.13 en Youtube"><img
+                                src="./imagenes/tft 13.13 banner.jpg" class="card-img-top"
+                                alt="Imagen banner de la actualización de TFT 13.13"></a>
+                        <div class="card-body">
+                            <h3 class="card-title" id="titulodecartasec62"
+                                alt="Titulo de la carta Actualizando TFT 13.13">Actualizando TFT 13.13: ¡Fortifica tu
+                                estrategia!</h3>
+                            <p class="card-text" id="textodecartasec62" alt="Texto de la carta Actualizando TFT 13.13">
+                                La versión 13.13 nos trae los primeros cambios del set, potenciando las
+                                sinergias que no empezaron tan bien la travesía y equilibrando a los monstruosos Heraldo
+                                y Barón. También a los objetos les tocaron ajustes de balance, así que ¡quédate y
+                                Actualízate ahora!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" id="cartasec6">
+                        <a href="https://teamfighttactics.leagueoflegends.com/es-mx/news/game-updates/notas-de-la-version-13-13-de-teamfight-tactics/"
+                            alt="Esta imagen es un link para notas del parche de la actualización de TFT 13.13"><img
+                                src="./imagenes/tft parche 13.13 banner.jpg" class="card-img-top"
+                                alt="Imagen banner de la actualización de TFT 13.13 pero solo con Zeri de fondo"></a>
+                        <div class="card-body">
+                            <h4 class="card-title" id="titulocartasec7"
+                                alt="Titulo de la carta Notas de la versión 13.13">Notas de la versión 13.13 de
+                                Teamfight Tactics</h4>
+                            <p class="card-text" id="textodecartasec63"
+                                alt="Texto de la carta Notas de la versión 13.13">Nuestra primera actualización de
+                                Runaterra Reforjada incluye un
+                                rediseño de Shurima, debilitaciones al Barón y T-Hex, ¡y muchos ajustes de balance!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 6 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 7 inicio -->
+    <section class="container-fluid" id="sec7">
+        <div class="container" id="sec7">
+            <div class="clearfix text-center">
+                <div class="card-body">
+                    <h1 class="card-title" id="titulodecartasec7" alt="Titulo de la carta Cómo jugar TFT">Cómo jugar TFT
+                    </h1>
+                    <p class="card-text" id="textocartasec7" alt="Texto de la carta Cómo jugar TFT">
+                        Aprende a jugar Teamfight Tactics con este video de Nero Wolf. Míralo para ver los aspectos
+                        básicos de reclutamiento de campeones, despliegue de equipos, recolección de oro y mucho más.
+                    </p>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1280px" height="720px" src="https://www.youtube.com/embed/Fr34ueBby4E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 7 fin -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,80C480,107,549,149,617,186.7C685.7,224,754,256,823,234.7C891.4,213,960,139,1029,96C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f4f3f3" fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,165.3C384,128,480,64,576,69.3C672,75,768,149,864,154.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+    <!-- seccion 8 inicio -->
+    <section class="container-fluid" id="sec8">
+        <div class="container" id="sec88">
+            <div class="clearfix text-center">
+                <h1 class="card-title" id="titulocartasec88">QUE COMIENCE</h1>
+                <p class="card-text" id="textocartasec88">EL JUEGO</p>
+                <button class="btn d-grid gap-2 col-6 mx-auto" type="submit" alt="Otro boton para ir a jugar"
+                    id="botonjugar4"><a
+                        href="https://signup.leagueoflegends.com/es-ar/teamfight-tactics/signup/index?_ga=2.121814988.693311089.1689132714-1345661657.1688979140&_gl=1*ms8urc*_ga*MTM0NTY2MTY1Ny4xNjg4OTc5MTQw*_ga_3HM18VBM2V*MTY4OTE0Mjk3OC4yLjEuMTY4OTE0NTA3My41MS4wLjA.#/"
+                        id="jugar">
+                        <h2>JUEGA GRATIS</h2>
+                    </a></button>
+                <img src="./imagenes/layer-2.png" class="card-img" alt="...">
+            </div>
+        </div>
+    </section>
+    <!-- seccion 8 fin -->
+
+    <!-- Footer inicio -->
+    <footer class="p-2 text-white bg-opacity-1 py-5" id="footer1">
+        <button class="btn d-grid gap-2 col-6 mx-auto" type="submit"
+            alt="Un boton para ir a descargar la aplicacion Riot Mobile" id="botonaplicacion">
+            <p>Descarga la aplicación de Riot Mobile</p>
+            <a
+                href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&referrer=singular_click_id%3D37ff7103-847d-4f06-8628-262ca9929859">
+            </a>
+        </button>
+        <button class="btn d-grid gap-2 mx-auto" type="submit" alt="Un boton para ir a la pagina de Riot Games">
+            <a href="https://www.riotgames.com/es" id="riotlinkfooter">
+                <img src="./imagenes/riot-games-logo.png" alt="Logo de Riot Games" class="img">
+            </a>
+        </button>
+        <div>
+            <p class="text-center" id="riotcopyrigth" alt="Texto de Riot Games Copyrigth">
+                © 2023 Riot Games, Inc.
+            </p>
+        </div>
+        <div id="riotlegallinks">
+            <div class="btn-group">
+                <a href="https://www.riotgames.com/es-419/privacy-notice-LATAM">Aviso de privacidad</a>
+                <a href="https://www.riotgames.com/es-419/terms-of-service-LATAM">Términos del servicio</a>
+                <a href="#header">Preferencias de cookies</a>
+            </div>
+        </div>
+        <div class="card mb-3 mx-auto" style="max-width: 540px;" id="cartadeclasfedad">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./imagenes/latam-esrb.png" class="img-fluid rounded-start"
+                        alt="Imagen de la clasificacion de la ESRB Adolecentes/Teenagers">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body" id="cardfooterbody">
+                        <p class="card-text" alt="Sangre">Sangre</p>
+                        <p class="card-text" alt="Violencia de fantasia">Violencia de fantasia</p>
+                        <p class="card-text" alt="Temas insinuantes moderados">Temas insinuantes
+                            moderados</p>
+                        <p class="card-text" alt="Uso de alcohol y tabaco">Uso de alcohol y tabaco
+                        </p>
+                        <p class="card-text" alt="Interacciones en línea no clasificadas por la ESRB">Interacciones en
+                            línea no clasificadas por la ESRB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer fin -->
+
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- Wowjs -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

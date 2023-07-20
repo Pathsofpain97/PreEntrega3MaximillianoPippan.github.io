@@ -1,0 +1,1894 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Beaufort for LOL", "NotoSans-Medium", serif;
+}
+
+
+/* Index.html inicio */
+
+#bodyindex {
+	background-color: #e49312;
+}
+
+/*Header index y los demas html (menos sesion.html) inicio */
+
+#header {
+	background-color: rgb(0, 0, 0);
+	height: 160px;
+}
+
+#headernavbar {
+	background-color: rgb(0, 0, 0);
+	z-index: 50;
+}
+
+#buttontoggler {
+	background-color: #f4f3f3;
+}
+
+#riotlink {
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 60px;
+	transition: 2s;
+	opacity: 16;
+}
+
+#riotlink:hover {
+	background-color: rgb(242, 32, 32);
+	transition: 2s;
+	cursor: pointer;
+	opacity: 16;
+}
+
+#tftlogo {
+	background-color: rgb(0, 0, 0);
+	transition: 2s;
+	border-radius: 70px;
+}
+
+#tftlogo:hover {
+	background-color: rgb(255, 255, 255);
+	transition: 2s;
+}
+
+#noticiaslink {
+	color: #f9f9f9;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: .08em;
+	margin-right: 4px;
+	padding: 7.5px 16px;
+	text-align: center;
+	transition: 2s;
+}
+
+#noticiaslink:hover {
+	transition: 2s;
+	background-color: rgb(252, 252, 252);
+	font-size: 1rem;
+	color: #000;
+	text-decoration: underline 2px;
+	text-decoration-color: rgb(158, 108, 54);
+}
+
+#resumendelsetlink {
+	color: #f9f9f9;
+	font-size: 0.7rem;
+	font-weight: bold;
+	letter-spacing: .08em;
+	margin-right: 4px;
+	padding: 7.5px 16px;
+	text-align: center;
+	transition: 2s;
+}
+
+#resumendelsetlink:hover {
+	transition: 2s;
+	background-color: rgb(252, 252, 252);
+	font-size: 0.7rem;
+	color: #000;
+	text-decoration: underline 2px;
+	text-decoration-color: rgb(158, 108, 54);
+}
+
+#laboratoriosdrop {
+	color: #f9f9f9;
+	padding: 7.5px 16px;
+	text-align: center;
+	margin-right: 4px;
+	font-size: 0.6rem;
+	font-weight: bold;
+	letter-spacing: .08em;
+	transition: 2s;
+}
+
+#laboratoriosdrop:hover {
+	transition: 2s;
+	background-color: rgb(252, 252, 252);
+	font-size: 0.7rem;
+	color: #000;
+	text-decoration: underline 2px;
+	text-decoration-color: rgb(158, 108, 54);
+}
+
+#dropmenu {
+	background-color: rgb(158, 108, 54);
+	height: 4px;
+	width: 100%;
+	border-radius: 2px 2px 0px 0px;
+}
+
+#duodinamicolink {
+	background-color: rgb(63, 63, 67);
+	color: rgb(241, 230, 208);
+	font-weight: bold;
+	text-align: center;
+	margin-right: 4px;
+	font-size: 0.6rem;
+	letter-spacing: .08em;
+	cursor: pointer;
+	margin-bottom: 0.9px;
+	transition: 2s;
+}
+
+#duodinamicolink:hover {
+	background-color: rgb(0, 0, 0);
+	transition: 2s;
+}
+
+#hyperrolllink {
+	background-color: rgb(63, 63, 67);
+	color: rgb(241, 230, 208);
+	font-weight: bold;
+	text-align: center;
+	margin-right: 4px;
+	font-size: 0.6rem;
+	letter-spacing: .08em;
+	cursor: pointer;
+	transition: 2s;
+}
+
+#hyperrolllink:hover {
+	background-color: rgb(0, 0, 0);
+	transition: 2s;
+}
+
+#formbotones {
+	justify-content: space-between;
+	justify-content: flex-end;
+}
+
+#botonsesion {
+	background-color: rgb(57, 56, 56);
+	border-radius: 6.4px;
+	letter-spacing: .08em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#botonjugar {
+	background: linear-gradient(132.87deg, rgb(255, 100, 51) 0%, rgb(254, 157, 58) 96.39%);
+	text-align: center;
+	border-radius: 12px;
+	letter-spacing: .08em;
+	font-weight: bold;
+}
+
+#sesion {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+#jugar {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+/*Header index.html y los demas .html (menos sesion.html) fin */
+
+/*Seccion 1 index.html inicio*/
+
+#sec1 {
+	margin-top: 60px;
+}
+
+#titulocartasec1 {
+	font-size: 2.5rem;
+	letter-spacing: 0.03em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+#videosec1 {
+	object-position: center center;
+	width: 100%;
+	height: 100%;
+}
+
+#botonjugar2 {
+	margin-top: 10px;
+	background-color: rgb(9, 202, 245);
+	border-radius: 16px;
+	transition: 2s;
+	font-size: 1rem;
+}
+
+#botonjugar2 h1 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+#botonjugar2:hover {
+	margin-top: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgb(100, 9, 245);
+	border-radius: 16px;
+	transition: 2s;
+}
+
+#botonjugar2 h1:hover {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+#textojuegagratis {
+	margin-top: 50px;
+	color: rgb(0, 0, 0);
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+#botonesapptft {
+	background-color: transparent;
+	align-items: flex-end;
+	animation: 1s;
+}
+
+
+/*Seccion 1 index.html fin*/
+
+/*Seccion 2 index.html inicio*/
+
+#sec2 {
+	word-break: break-word;
+}
+
+#sec22 {
+	overflow: hidden;
+}
+
+#sec22 img{
+	filter: drop-shadow(9px 16px 3px #000A);
+}
+
+#titulocartasec2 {
+	font-size: 2.2rem;
+	letter-spacing: 0.03em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+#textocartasec2 {
+	font-size: 1.5rem;
+	margin: 15px auto 0px;
+	color: rgb(0, 0, 0);
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+}
+
+#botonjugar3 {
+	margin-top: 40px;
+	background-color: rgb(122, 43, 248);
+	border-radius: 16px;
+	font-size: 1rem;
+}
+
+#botonjugar3:hover {
+	margin-top: 40px;
+	background-color: rgb(113, 30, 245);
+	border-radius: 16px;
+	font-size: 1rem;
+}
+
+#botonjugar3 h2 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+#botonjugar3 h2:hover {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+/*Seccion 2 index.html fin*/
+
+/*Seccion 3 index.html inicio*/
+
+#titulocartasec3 {
+	font-size: 2.4rem;
+	letter-spacing: 0.03em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	margin: 15px auto 0px;
+}
+
+#textocartasec3 {
+	font-size: 1.5rem;
+	margin: 15px auto 0px;
+	color: rgb(0, 0, 0);
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+}
+
+/*Seccion 3 index.html fin*/
+
+/*Seccion 4 index.html inicio*/
+
+#sec44 img{
+	filter: drop-shadow(9px 66px 3px #000A);
+}
+
+#titulocartasec44 {
+	font-size: 2.4rem;
+	padding: 0px 15px 10px;
+	margin: 0px -10px -10px;
+	font-weight: bolder;
+	letter-spacing: 0.03em;
+	color: rgb(254, 246, 243);
+}
+
+#textocartasec44 {
+	font-size: 1.5rem;
+	margin: 15px auto 0px;
+	color: rgb(0, 0, 0);
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+}
+
+/*Seccion 4 index.html fin*/
+
+/*Seccion 5 index.html inicio*/
+
+#titulocartasec51 {
+	font-size: 1rem;
+	letter-spacing: 0.15em;
+	text-align: left center;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+	margin-top: 15px;
+}
+
+#titulocartasec52 {
+	font-size: 2.4rem;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+}
+
+#textocartasec5 {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0.3em;
+	text-align: left;
+	color: rgb(11, 11, 12);
+	font-size: 1.2rem;
+	letter-spacing: 0.05em;
+	opacity: 1;
+}
+
+#botonportal {
+	text-decoration: none;
+	align-items: center;
+	cursor: pointer;
+	background-color: transparent;
+	padding-left: 0.3em;
+}
+
+#textobotonportal {
+	text-decoration: none;
+	text-align: left;
+	color: rgb(11, 11, 12);
+	font-size: 1.3rem;
+}
+
+/*Seccion 5 index.html fin*/
+
+/*Seccion 6 index.html inicio*/
+
+#textoultnoticias {
+	font-size: 2.4rem;
+	letter-spacing: 0.03em;
+	text-align: right;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#botonvertodo {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+	padding-left: 0.3em;
+	text-decoration: none;
+}
+
+#textovertodo {
+	font-size: 1.6rem;
+	letter-spacing: 0.03em;
+	text-align: right;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#cartasec6 {
+	background-color: rgb(250, 239, 235);
+}
+
+#titulodecartasec61 {
+	margin-top: 16px;
+	font-size: 1.3rem;
+	letter-spacing: 0.04em;
+	margin-bottom: 0px;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+}
+
+#titulodecartasec62 {
+	margin-top: 16px;
+	font-size: 1.2rem;
+	letter-spacing: 0.04em;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+	margin-bottom: 0px;
+}
+
+#titulodecartasec63 {
+	margin-top: 16px;
+	font-size: 1.2rem;
+	letter-spacing: 0.04em;
+	margin-bottom: 0px;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+}
+
+#textodecartasec61 {
+	margin-top: 8px;
+	font-size: 1rem;
+	letter-spacing: 0.06em;
+	margin-bottom: 0px;
+	color: rgb(11, 11, 12);
+}
+
+#textodecartasec62 {
+	margin-top: 8px;
+	font-size: 1rem;
+	letter-spacing: 0.06em;
+	margin-bottom: 0px;
+	color: rgb(11, 11, 12);
+}
+
+#textodecartasec63 {
+	margin-top: 8px;
+	font-size: 1rem;
+	letter-spacing: 0.06em;
+	margin-bottom: 0px;
+	color: rgb(11, 11, 12);
+}
+
+/*Seccion 6 index.html fin*/
+
+/*Seccion 7 index.html inicio*/
+
+#titulodecartasec7 {
+	font-size: 2.4rem;
+	letter-spacing: 0.03em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	margin: 15px auto 0px;
+}
+
+#textocartasec7 {
+	font-size: 1.5rem;
+	margin: 15px auto 0px;
+	color: rgb(0, 0, 0);
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+}
+
+/*Seccion 7 index.html fin*/
+
+/*Seccion 8 index.html inicio*/
+
+#sec88 img{
+	filter: drop-shadow(9px 20px 3px #000A);
+}
+
+#titulocartasec88 {
+	font-size: 1.6rem;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+	font-weight: bolder;
+}
+
+#textocartasec88 {
+	font-size: 2.4rem;
+	letter-spacing: 0.03em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+#botonjugar4 {
+	margin-top: 10px;
+	background-color: rgb(9, 202, 245);
+	border-radius: 16px;
+	transition: 2s;
+	font-size: 1rem;
+}
+
+#botonjugar4 h2 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+#botonjugar4:hover {
+	margin-top: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgb(100, 9, 245);
+	border-radius: 16px;
+	transition: 2s;
+}
+
+#botonjugar4 h2:hover {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+/*Seccion 8 index.html fin*/
+
+/*Footer index.html y los demas .html (menos sesion.html) inicio*/
+
+#footer1 {
+	border-top: 2px solid #343434;
+	background-color: #111;
+}
+
+#botonaplicacion {
+	background-color: #7e7e7e;
+	text-decoration: none;
+	color: #f9f9f9;
+	transition: 2s;
+	cursor: pointer;
+}
+
+#botonaplicacion a {
+	text-decoration: none;
+}
+
+#botonaplicacion p {
+	font-size: 1rem;
+	letter-spacing: .08em;
+	text-align: center;
+	font-weight: bolder;
+	transition: 2s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#botonaplicacion:hover {
+	background-color: #e4e3e3;
+	text-decoration: none;
+	transition: 2s;
+	cursor: pointer;
+	color: #000000;
+}
+
+#botonaplicacion p:hover {
+	background-color: #e4e3e3;
+	text-decoration: none;
+	transition: 2s;
+	cursor: pointer;
+	color: #000000;
+	text-decoration: none;
+}
+
+#riotlinkfooter {
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 60px;
+	transition: 2s;
+	opacity: 16;
+}
+
+#riotlinkfooter:hover {
+	background-color: #f9f9f9;
+	cursor: pointer;
+	border-radius: 60px;
+	transition: 2s;
+	opacity: 16;
+}
+
+#riotcopyrigth {
+	color: #7e7e7e;
+	font-size: 0.7rem;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#riotlegallinks {
+	box-sizing: border-box;
+	padding: 24px 0px 28px;
+	font-size: 0.7rem;
+	letter-spacing: .08em;
+	text-align: center;
+	color: #f9f9f9
+}
+
+#riotlegallinks .btn-group {
+    border-radius: var(--bs-border-radius);
+}
+
+#riotlegallinks .btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+#riotlegallinks a {
+	cursor: pointer;
+	box-sizing: border-box;
+	background-color: transparent;
+	list-style: none;
+	font-size: 0.7rem;
+	letter-spacing: .08em;
+	text-align: center;
+	color: #f9f9f9;
+	text-decoration: none;
+	margin: 8px;
+	font-weight: bolder;
+	transition: 2s;
+}
+
+#riotlegallinks a:hover {
+	cursor: pointer;
+	box-sizing: border-box;
+	background-color: #7e7e7e;
+	list-style: none;
+	font-size: 1rem;
+	letter-spacing: .08em;
+	text-align: center;
+	color: #f9f9f9;
+	text-decoration: none;
+	margin: 8px;
+	font-weight: bolder;
+	transition: 2s;
+	border-radius: 4px;
+}
+
+#cartadeclasfedad {
+	background-color: #7f7f7f;
+}
+
+#cardfooterbody p {
+	font-size: 1rem;
+	text-align: left;
+	color: #ffffff;
+	font-weight: bolder;
+}
+
+/*Footer index.html y los demas .html (menos sesion.html) fin*/
+
+/* Media queries index.html */
+
+/* `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px)*/
+
+@media screen and (max-width: 575.98px){
+	#riotlegallinks .btn-group{
+		display:flex; flex-direction:column;
+	}
+
+	#riotlegallinks .btn-group, .btn-group-vertical{
+		display:flex; flex-direction:column;
+	}
+}
+
+/* Media queries index.html */
+
+/* Index.html fin */
+
+/* Noticias.html inicio */
+
+#bodynoticias {
+	background-color: #e49312;
+}
+
+/*Seccion 1 Noticas.html inicio*/
+
+#titulocartasecn1 {
+	font-size: 2.3rem;
+	margin: 0.5em 0px;
+	color: rgb(255, 255, 255);
+	letter-spacing: 1.5px;
+	font-weight: bolder;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#textocartasecn1 {
+	color: #000000;
+	letter-spacing: 1.5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*Seccion 1 Noticas.html fin*/
+
+/*Seccion 2 Noticas.html inicio*/
+
+#botonnoticias {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+	transition: 1s;
+	border-radius: 40px;
+}
+
+#botonnoticias:hover {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #2f2f2f;
+	transition: 1s;
+	border-radius: 40px;
+}
+
+#textobotonnoticias {
+	text-decoration: none;
+	text-align: left;
+	color: rgb(11, 11, 12);
+	font-size: 1rem;
+	transition: 1s;
+}
+
+#textobotonnoticias:hover {
+	text-decoration: none;
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+	transition: 1s;
+	font-weight: bolder;
+}
+
+/*Seccion 2 Noticas.html fin*/
+
+/*Seccion 3 Noticas.html inicio*/
+
+#Cntit {
+	font-size: 1rem;
+	letter-spacing: 0.75px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+}
+
+#Cntxt {
+	margin: 5px 0px;
+	color: rgb(26, 29, 33);
+	font-size: 1rem;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+
+#Cntxt2 {
+	letter-spacing: 0.75px;
+	font-size: 0.8rem;
+	cursor: pointer;
+	color: rgb(11, 11, 12);
+	font-weight: bolder;
+}
+
+/*Seccion 3 Noticas.html fin*/
+
+/* Noticias.html fin */
+
+/* Resumenset.html inicio */
+
+#bodyresumen{
+	background-color: #e49312;
+}
+
+/*Seccion 1 Resumenset.html inicio*/
+
+#secrs1 {
+	background-image: url(../imagenes/TFT_SET923_WEB_SetOverview_Header-Background_2650X1615_v001_ASteme.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#card1title1 {
+	font-size: 1.6rem;
+	letter-spacing: 0.15em;
+	color: rgb(255, 252, 240);
+	text-align: center;
+	font-weight: bolder;
+}
+
+#card1title2 {
+	padding: 0px 15px 10px;
+	margin: 0px -10px -10px;
+	font-size: 1.6rem;
+	letter-spacing: 0.03em;
+	color: rgb(255, 252, 240);
+	text-align: center;
+	font-weight: bolder;
+}
+
+#card1text {
+	margin: 15px auto 0px;
+	color: rgb(255, 252, 240);
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+}
+
+#botonjugar5 {
+	margin-top: 10px;
+	background: rgb(254, 117, 25);
+	border-radius: 16px;
+	transition: 2s;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+#botonjugar5:hover {
+	margin-top: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgb(17, 192, 231);
+	border-radius: 16px;
+	transition: 2s;
+}
+
+#botonjugar5 h1 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+#botonjugar5 h1:hover {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+/*Seccion 1 Resumenset.html fin*/
+
+/*Seccion 2 Resumenset.html inicio*/
+
+#secrs2 {
+	background-image: url(../imagenes/wild-blue-studios-tft-set-9-final-bgonly-small.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#secrs22 {
+	background-color: rgb(4, 16, 44);
+	margin-top: 20px;
+}
+
+#titulocartasecrs22 {
+	font-size: 2rem;
+	letter-spacing: 0.04em;
+	color: rgb(255, 252, 240);
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 800;
+}
+
+#textocartasecrs22 {
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+	color: rgb(255, 252, 240);
+}
+
+#masinfor {
+	margin-top: 10px;
+	background: rgb(254, 117, 25);
+	border-radius: 16px;
+	transition: 2s;
+	font-size: 1rem;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#masinfor a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#masinfor:hover {
+	margin-top: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgb(17, 192, 231);
+	border-radius: 16px;
+	transition: 2s;
+	text-decoration: none;
+}
+
+#textobotonmasinfor {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+	text-decoration: none;
+}
+
+#textobotonmasinfor:hover {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+	text-decoration: none;
+}
+
+/*Seccion 2 Resumenset.html fin*/
+
+/*Seccion 3 Resumenset.html inicio*/
+
+#secrs3 {
+	background-image: url(../imagenes/wild-blue-studios-tft-set-9-final-bgonly-small.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#secrs33 {
+	background-color: rgb(4, 16, 44);
+	margin-top: 20px;
+}
+
+#titulocartasecrs33 {
+	font-size: 2rem;
+	letter-spacing: 0.04em;
+	color: rgb(255, 252, 240);
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 800;
+}
+
+#textocartasecrs33 {
+	font-size: 0.9rem;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+	color: rgb(255, 252, 240);
+}
+
+/*Seccion 3 Resumenset.html fin*/
+
+/*Seccion 4 Resumenset.html inicio*/
+
+#secrs4 {
+	background-image: url(../imagenes/wild-blue-studios-tft-set-9-final-bgonly-small.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#secrs44 {
+	background-color: rgb(4, 16, 44);
+	margin-top: 20px;
+}
+
+#titulocartasecrs44 {
+	font-size: 2rem;
+	letter-spacing: 0.04em;
+	color: rgb(255, 252, 240);
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 800;
+}
+
+#textocartasecrs44 {
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+	color: rgb(255, 252, 240);
+}
+
+/*Seccion 4 Resumenset.html fin*/
+
+/*Seccion 5 Resumenset.html inicio*/
+
+#secrs5 {
+	background-image: url(../imagenes/wild-blue-studios-tft-set-9-final-bgonly-small.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#secrs55 {
+	background-color: rgb(4, 16, 44);
+	margin-top: 20px;
+}
+
+#titulocartasecrs55 {
+	font-size: 2rem;
+	letter-spacing: 0.04em;
+	color: rgb(255, 252, 240);
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 800;
+}
+
+#textocartasecrs55 {
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+	color: rgb(255, 252, 240);
+}
+
+/*Seccion 5 Resumenset.html fin*/
+
+/*Seccion 6 Resumenset.html inicio*/
+
+#secrs6 {
+	background-image: url(../imagenes/wild-blue-studios-tft-set-9-final-bgonly-small.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#secrs66{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#secrs66 img{
+	filter: drop-shadow(9px 36px 3px #000A);
+}
+
+#cartasecrs66 {
+	background-color: transparent;
+}
+
+#rowsecrs66{
+	margin-top: 8px;
+}
+
+#cartasecrs66texto {
+	font-size: 2.2rem;
+	letter-spacing: 0.07em;
+	color: rgb(255, 252, 240);
+	text-align: center;
+	font-weight: bold;
+}
+
+#cartassecrs66 {
+	background-color: #ff6d5d;
+	background-image: linear-gradient(0deg, #ff6d5d 0%, #f9e169 100%);
+}
+
+#cartassecrs66titulo {
+	margin: 20px 0px 0px;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+	text-align: center;
+	color: rgb(255, 252, 240);
+}
+
+#cartassecrs66texto {
+	margin: 6px 0px 0px;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(255, 252, 240);
+}
+
+/*Seccion 6 Resumenset.html fin*/
+
+/*Seccion 7 Resumenset.html fin*/
+
+#secrs7 {
+	background-color: #e49312;
+}
+
+#secrs77 {
+	background-color: #e49312;
+	margin-top: 20px;
+}
+
+#secrs77 img{
+	filter: drop-shadow(9px 20px 3px #000A);
+}
+
+#titulocartasecrs7 {
+	font-size: 1.9rem;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.05em;
+	text-align: center;
+	opacity: 1;
+	font-weight: bolder;
+}
+
+#textocartasecrs7 {
+	font-size: 2.4rem;
+	letter-spacing: 0.03em;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+#botonjugar4 {
+	margin-top: 10px;
+	background-color: rgb(9, 202, 245);
+	border-radius: 16px;
+	transition: 2s;
+	font-size: 1rem;
+}
+
+#botonjugar4 h2 {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+#botonjugar4:hover {
+	margin-top: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgb(100, 9, 245);
+	border-radius: 16px;
+	transition: 2s;
+}
+
+#botonjugar4 h2:hover {
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: 2s;
+	text-align: center;
+	letter-spacing: .08em;
+}
+
+/*Seccion 7 Resumenset.html fin*/
+
+/* Resumenset.html fin */
+
+/* Duo.html inico */
+
+#bodyduo {
+	background-color: #e49312;
+}
+
+/*Seccion 1 Duo.html inicio*/
+
+#secduo1 {
+	margin-top: 20px;
+}
+
+#secduo11 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasecduo11 {
+	font-size: 2rem;
+	color: rgb(242, 105, 58);
+	text-align: center;
+	font-weight: 800;
+}
+
+#textocartasecduo11 {
+	font-size: 0.8rem;
+	letter-spacing: 0.06em;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: rgb(11, 11, 12);
+}
+
+
+/*Seccion 1 Duo.html fin*/
+
+/*Seccion 2 Duo.html inicio*/
+
+#secduo2 {
+	margin-top: 30px;
+}
+
+#secduo22 {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulosecduo22 {
+	font-size: 1.2rem;
+	color: rgb(242, 105, 58);
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+}
+
+#textosecduo22 {
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 2 Duo.html fin*/
+
+/*Seccion 3 Duo.html inicio*/
+
+#secduo3 {
+	margin-top: 20px;
+}
+
+#secduo33 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasecduo33 {
+	font-size: 1.2rem;
+	margin-top: 40px;
+	color: rgb(242, 105, 58);
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+}
+
+#textocartasecduo33 {
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 3 Duo.html fin*/
+
+/*Seccion 4 Duo.html inicio*/
+
+#secduo4 {
+	margin-top: 20px;
+}
+
+#secduo44 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasecduo44 {
+	font-size: 1.2rem;
+	margin-top: 40px;
+	color: rgb(242, 105, 58);
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+}
+
+#textocartasecduo44 {
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 4 Duo.html fin*/
+
+/*Seccion 5 Duo.html inicio*/
+
+#secduo5 {
+	margin-top: 20px;
+}
+
+#secduo55 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#textocartasecduo55 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+}
+
+/*Seccion 5 Duo.html fin*/
+
+/*Seccion 6 Duo.html inicio*/
+
+#secduo6 {
+	margin-top: 20px;
+}
+
+#secduo66 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasecduo66 {
+	margin-top: 0px;
+	font-size: 1.2rem;
+	color: rgb(242, 105, 58);
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+}
+
+#textocartasecduo66 {
+	margin-bottom: 0px;
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 6 Duo.html fin*/
+
+/*Seccion 7 Duo.html inicio*/
+
+#secduo7 {
+	margin-top: 20px;
+}
+
+#rowsecduo77 {
+	justify-content: center;
+}
+
+/*Seccion 7 Duo.html fin*/
+
+/*Seccion 8 Duo.html inicio*/
+
+#secduo8 {
+	margin-top: 20px;
+}
+
+#secduo88 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasecduo88 {
+	margin-top: 0px;
+	font-size: 1.2rem;
+	color: rgb(242, 105, 58);
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+}
+
+#textocartasecduo88 {
+	margin-bottom: 0px;
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 8 Duo.html fin*/
+
+/*Seccion 9 Duo.html inicio*/
+
+#secduo9 {
+	margin-top: 20px;
+}
+
+#secduo99 .card {
+	background-color: rgb(255, 255, 255);
+	border-radius: 40px;
+}
+
+#titulocartasecduo99 {
+	margin-top: 25px;
+	color: rgb(242, 105, 58);
+	font-size: 1.2rem;
+	font-weight: 900;
+	letter-spacing: 0.01em;
+	text-align: center;
+}
+
+#textocartasecduo99 {
+	padding: 8px 0px;
+	color: rgb(5, 5, 5);
+	font-size: 0.7rem;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+/*Seccion 9 Duo.html fin*/
+
+/*Seccion 10 Duo.html inicio*/
+
+#secduo10 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#secduo10 {
+	background: rgb(247, 239, 223);
+	cursor: pointer;
+}
+
+#secduo1010 {
+	background: rgb(247, 239, 223);
+	cursor: pointer;
+}
+
+#secduo1010 .card {
+	background: rgb(247, 239, 223);
+	cursor: pointer;
+	margin-right: 12px;
+	margin-left: 12px;
+	margin-bottom: 8px;
+}
+
+#textocartasecduo1010m {
+	color: rgb(208, 168, 92);
+	font-size: 0.6rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#titulocartasecduo1010 {
+	margin-top: 0.375rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: rgb(11, 11, 12);
+	cursor: pointer;
+}
+
+#textocartasecduo1010 {
+	margin: 0.3125rem 0px;
+	color: rgb(26, 29, 33);
+	font-size: 0.7rem;
+	cursor: pointer;
+}
+
+#textocartasecduo1010n {
+	color: rgb(11, 11, 12);
+	font-size: 0.6rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/*Seccion 10 Duo.html fin*/
+
+/* Duo.html fin */
+
+/* Hyper.html inicio */
+
+#bodyhyper {
+	background-color: #e49312;
+}
+
+/*Seccion 1 Hyper.html inicio*/
+
+#sechyper1{
+	margin-top: 20px;
+}
+
+#sechyper11 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasechyper11 {
+	font-size: 2rem;
+	color: rgb(242, 105, 58);
+	font-weight: 800;
+	text-align: center;
+}
+
+#textocartasechyper11 {
+	font-size: 1rem;
+	letter-spacing: 0.06em;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: rgb(11, 11, 12);
+}
+
+/*Seccion 1 Hyper.html fin*/
+
+/*Seccion 2 Hyper.html inicio*/
+
+#sechyper2{
+	margin-top: 20px;
+}
+
+#sechyper22 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasechyper22 {
+	font-weight: bolder;
+	font-size: 1.8rem;
+	color: rgb(242, 105, 58);
+	letter-spacing: 0.05em;
+}
+
+#textocartasechyper22 {
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+
+/*Seccion 2 Hyper.html fin*/
+
+/*Seccion 3 Hyper.html inicio*/
+
+#sechyper3{
+	margin-top: 20px;
+}
+
+#sechyper33 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasechyper33 {
+	font-weight: bolder;
+	font-size: 1.8rem;
+	color: rgb(242, 105, 58);
+	letter-spacing: 0.05em;
+}
+
+#textocartasechyper33 {
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1.4rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 3 Hyper.html fin*/
+
+/*Seccion 4 Hyper.html inicio*/
+
+#sechyper4{
+	margin-top: 20px;
+}
+
+#sechyper44{
+	background-color: rgb(255, 255, 255);
+}
+
+#sechyper44 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#textosechyper44m {
+	font-weight: bolder;
+	color: rgb(53, 54, 79);
+	font-size: 1.8rem;
+	letter-spacing: 0.04em;
+}
+
+#textosechyper44 {
+	margin-top: 14px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 4 Hyper.html fin*/
+
+/*Seccion 5 Hyper.html inicio*/
+
+#sechyper5{
+	margin-top: 20px;
+}
+
+#sechyper55 .card {
+	background-color: rgb(255, 255, 255);
+}
+
+#titulocartasechyper55 {
+	font-weight: bolder;
+	font-size: 1.4rem;
+	color: rgb(242, 105, 58);
+	letter-spacing: 0.05em;
+}
+
+#titulocartasechyper55m {
+	font-weight: bolder;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+#textosechyper55 {
+	margin: 17px 0px;
+	color: rgb(53, 54, 79);
+	font-size: 1rem;
+	letter-spacing: 0.04em;
+}
+
+/*Seccion 5 Hyper.html fin*/
+
+/*Seccion 6 Hyper.html inicio*/
+
+#sechyper6{
+	margin-top: 20px;
+}
+
+#sechyper66 .card {
+	background-color: rgb(255, 255, 255);
+	border-radius: 40px;
+}
+
+#sechyper66 .card img {
+	top: 0px;
+	left: 0px;
+	width: 45%;
+	height: 45%;
+}
+
+#titulocartasechyper66 {
+	margin-top: 25px;
+	color: rgb(242, 105, 58);
+	font-size: 1.3rem;
+	font-weight: 900;
+	letter-spacing: 0.01em;
+	text-align: center;
+}
+
+#textocartasechyper66 {
+	padding: 8px 0px;
+	color: rgb(5, 5, 5);
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+/*Seccion 6 Hyper.html fin*/
+
+/*Seccion 7 Hyper.html inicio*/
+
+#sechyper7{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+#sechyper77 {
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+#sechyper77 .card {
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+	margin-right: 12px;
+	margin-left: 12px;
+	margin-bottom: 8px;
+}
+
+#textocartasechyper77m {
+	color: rgb(208, 168, 92);
+	font-size: 0.7rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#titulocartasechyper77 {
+	margin-top: 0.375rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: rgb(11, 11, 12);
+	cursor: pointer;
+}
+
+#textocartasechyper77 {
+	margin: 0.3125rem 0px;
+	color: rgb(26, 29, 33);
+	font-size: 0.7rem;
+	cursor: pointer;
+}
+
+#textocartasechyper77n {
+	color: rgb(11, 11, 12);
+	font-size: 0.6rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/*Seccion 7 Hyper.html fin*/
+
+/* Hyper.html fin */
+
+/* Sesion.html inicio */
+
+#bodysesion {
+	background: url(../imagenes/lol_desktop_background_2x.jpg);
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #e49312;
+}
+
+/*Header Sesion.html inicio*/
+#headersesion {
+	background: transparent;
+}
+
+#headernavbarsesion {
+	background: transparent;
+	z-index: 50;
+}
+
+#riotlinksesion {
+	transition: 2s;
+	border-radius: 70px;
+}
+
+#riotlinksesion:hover {
+	background-color: rgb(225, 45, 45);
+	transition: 2s;
+}
+
+#tftlogosesion {
+	transition: 2s;
+	border-radius: 70px;
+}
+
+#tftlogosesion:hover {
+	background-color: rgb(0, 0, 0);
+	transition: 2s;
+}
+
+/*Header Sesion.html fin*/
+
+/*Seccion 1 Sesion.html inicio*/
+
+#formulario {
+	padding: 40px;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+#linkscuenta {
+	display: flex;
+	justify-content: center;
+}
+
+#linkscuenta a {
+	text-decoration: none;
+	color: #666;
+	transition: 1s;
+	font-size: 1rem;
+}
+
+#linkscuenta a:hover {
+	text-decoration: none;
+	color: #000000;
+	transition: 1s;
+}
+
+#botonEnviar {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#titulosesion {
+	font-size: 1.558681230984089rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #111;
+	font-family: inherit;
+}
+
+#datossesion {
+	padding: 1.2em 0.374083495436181rem 0.35em;
+	min-height: 3.05em;
+	font-size: 0.7rem;
+	font-weight: 700;
+	letter-spacing: 0;
+	background: transparent;
+	line-height: 1.5em;
+	width: 100%;
+	outline: none;
+	border: 2px transparent;
+	display: block;
+	color: transparent;
+	box-sizing: border-box;
+}
+
+#datossesion input {
+	color: #525252;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 0.08em;
+	line-height: 100%;
+}
+
+#mantenersesion {
+	display: flex;
+	justify-content: center;
+}
+
+#mantenersesion input {
+	cursor: pointer;
+	color: #292929;
+	-webkit-text-size-adjust: none;
+	letter-spacing: 0;
+	font-size: 1rem;
+	margin-right: 0.3rem;
+}
+
+#mantenersesion label {
+	cursor: pointer;
+	color: #292929;
+	-webkit-text-size-adjust: none;
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 120%;
+}
+
+/*Seccion 1 Sesion.html fin*/
+
+/* Sesion.html fin */
